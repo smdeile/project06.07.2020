@@ -1,0 +1,13 @@
+.logoWrapper {
+  max-width: 375px;
+  margin-top: 47px;
+}
+
+.logoLink {
+  display: flex;
+  justify-content: space-between;
+  width: 208px;
+}
+.logoText {
+  width: 100px;
+}
