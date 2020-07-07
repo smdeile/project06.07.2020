@@ -35,12 +35,6 @@
 .formPassword {
   margin-top: 25px;
 }
-:global(.ant-input) {
-  width: 334px;
-  height: 50px;
-  border-radius: 8px;
-  border: none;
-}
 
 .forgotPassword {
   margin-top: 22px;
@@ -57,4 +51,33 @@
 
   text-align: center;
   text-decoration-line: underline;
+}
+
+.lineGrey {
+  margin-top: 39px;
+  min-width: 100%;
+  border: 1px solid #dfdfdf;
+}
+.createAccountBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  min-width: 375px;
+}
+.invitePartnersBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 36px;
+  min-width: 100%;
+
+  height: 278px;
+  background: linear-gradient(180deg, #fbea79 0%, #f8d247 100%);
+}
+.invitePartnersHeader {
+  max-width: 375px;
+}
+.invitePartnersParagraph {
+  max-width: 375px;
 }

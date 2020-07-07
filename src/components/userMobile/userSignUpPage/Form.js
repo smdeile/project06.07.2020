@@ -61,10 +61,7 @@ class FormComponent extends Component {
             },
           ]}
         >
-          <Input.Password
-            className={css.input__pass}
-            placeholder="Mot de passe"
-          />
+          <Input.Password placeholder="Mot de passe" />
         </Form.Item>
 
         <Form.Item className={css.formButton}>
@@ -73,7 +70,7 @@ class FormComponent extends Component {
             type="primary"
             htmlType="submit"
           >
-            Submit
+            Se connecter
           </Button>
         </Form.Item>
 
@@ -83,7 +80,7 @@ class FormComponent extends Component {
             className={css.buttonLogin}
             href="some url"
           >
-            Forgot password
+            Mot de passe oublié ?
           </a>
         </Form.Item>
       </Form>

@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 
 export class Nav extends Component {
   render() {
@@ -9,6 +9,11 @@ export class Nav extends Component {
           <NavLink
             exact
             to="/"
+            // className={styles.link}
+            // activeClassName={styles.activeLink}
+          ></NavLink>
+          <NavLink
+            to="/UserCreateAccountPage"
             // className={styles.link}
             // activeClassName={styles.activeLink}
           ></NavLink>
