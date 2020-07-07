@@ -3,12 +3,12 @@ import { Switch, Route } from "react-router-dom";
 
 const AsyncUserSignUpPage = lazy(() =>
   import(
-    "./userMobile/UserSignUpPage.js" /* webpackChunkName: "user-sign-up-page" */
+    "./userMobile/userSignUpPage/UserSignUpPage.js" /* webpackChunkName: "user-sign-up-page" */
   )
 );
 const AsyncUserCreateAccountPage = lazy(() =>
   import(
-    "./userMobile/UserCreateAccountPage.js" /* webpackChunkName: "user-create-account-page" */
+    "./userMobile/UserCreateAccountPage/UserCreateAccountPage.js" /* webpackChunkName: "user-create-account-page" */
   )
 );
 const App = () => {

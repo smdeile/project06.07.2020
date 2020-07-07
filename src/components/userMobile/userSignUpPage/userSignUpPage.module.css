@@ -1,0 +1,60 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 375px;
+  height: 100vh;
+  background-color: #e5e5e5;
+}
+/* .formWrapper {
+  margin-top: 51px;
+} */
+.formButton {
+  display: flex;
+  justify-content: center;
+}
+.buttonLogin {
+  width: 170px;
+  height: 56px;
+  margin-top: 31px;
+}
+.buttonSubmit {
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(90deg, #ff3658 -34.18%, #f68d36 86.61%);
+}
+.formEmail {
+  margin-top: 51px;
+}
+.input {
+  width: 334px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+}
+.formPassword {
+  margin-top: 25px;
+}
+:global(.ant-input) {
+  width: 334px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+}
+
+.forgotPassword {
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+}
+.linkForgotPassword {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4f4f4f;
+
+  text-align: center;
+  text-decoration-line: underline;
+}
