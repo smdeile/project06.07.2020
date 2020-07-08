@@ -6,14 +6,18 @@ import LineGrey from "./LineGrey";
 
 const UserSignUpPage = () => (
   <div className={css.wrapper}>
-    <Logo />
+    <Logo
+      classNameLogoWrapper={css.logoWrapper}
+      classNameLogo={css.headerLogo}
+      classNameSignature={css.headerLogoSignature}
+    />
     <Form />
-    <LineGrey />
+    <LineGrey classNameLine={css.lineGreyMiddlePage} />
     <div className={css.createAccountBlock}>
-      <h2>Nouveau sur wilive ?</h2>
+      <h2 className={css.headerCreateAccount}>Nouveau sur wilive ?</h2>
       <a
         href="http://localhost:3000/UserCreateAccountPage"
-        className={css.buttonSubmit}
+        className={`${css.buttonWhiteColor} ${css.linkCreateAccount} ${css.buttonWithGradient} ${css.buttonMainStyle}`}
       >
         Créer un compte
       </a>
@@ -25,7 +29,36 @@ const UserSignUpPage = () => (
         privé proposant des activités sportives, nous pouvons dès maintenant
         nous rencontrer.
       </p>
+      <a
+        href="http://localhost:3000/UserCreateAccountPage"
+        className={`${css.buttonMainStyle}  ${css.linkContactUs}`}
+      >
+        Contactez-nous
+      </a>
     </div>
+    <footer>
+      <div>
+        <div className={css.footerBlock}>
+          <Logo
+            classNameLogo={css.footerLogoLabel}
+            classNameSignature={css.footerLogoSignature}
+            classNameLogoWrapper={css.footerLogoWrapper}
+          />
+          <LineGrey />
+          <div className={css.footerContacts}>
+            <a href="00 00 00 00 00" className={css.footerTel}>
+              00 00 00 00 00
+            </a>
+
+            <div className={css.footerMail}>
+              <a href="some mail@mail">
+                <img src={require("../../../images/envelope.svg")} />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 );
 

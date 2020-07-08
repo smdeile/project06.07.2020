@@ -1,4 +1,6 @@
 import React from "react";
 import css from "./userSignUpPage.module.css";
-const LineGrey = () => <div className={css.lineGrey}></div>;
+const LineGrey = ({ classNameLine }) => (
+  <div className={`${css.lineGrey} ${classNameLine}`}></div>
+);
 export default LineGrey;

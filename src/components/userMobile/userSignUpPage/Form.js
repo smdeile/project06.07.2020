@@ -12,25 +12,9 @@ class FormComponent extends Component {
   };
 
   render() {
-    const layout = {
-      labelCol: {
-        span: 8,
-      },
-      wrapperCol: {
-        span: 16,
-      },
-    };
-    const tailLayout = {
-      wrapperCol: {
-        offset: 8,
-        span: 16,
-      },
-    };
-
     return (
       <Form
         className={css.formWrapper}
-        {...layout}
         name="basic"
         initialValues={{
           remember: true,
@@ -66,7 +50,7 @@ class FormComponent extends Component {
 
         <Form.Item className={css.formButton}>
           <Button
-            className={`${css.buttonSubmit} ${css.buttonLogin}`}
+            className={`${css.buttonWhiteColor} ${css.buttonLogin} ${css.buttonWithGradient} ${css.buttonMainStyle}`}
             type="primary"
             htmlType="submit"
           >
