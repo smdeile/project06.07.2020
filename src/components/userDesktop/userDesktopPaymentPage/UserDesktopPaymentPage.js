@@ -33,7 +33,7 @@ export class UserDesktopPaymentPage extends Component {
                 desktop={true}
               />
             </div>
-            <div>
+            <div className={css.rightSide}>
               <RadioPaymentPage />
             </div>
           </div>
