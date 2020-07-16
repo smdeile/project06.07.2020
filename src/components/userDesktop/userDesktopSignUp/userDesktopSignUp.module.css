@@ -1,16 +1,25 @@
 .wrapper {
+  min-width: 1440px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--mainBackgroundColor);
+  position: relative;
+}
+.logoWidth {
+  width: 150px;
+}
+.leftSideOfPage {
+  min-width: 735px;
+  height: 585px;
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  background-color: #fafafa;
-  font-size: 0;
-  padding-top: 47px;
 }
-.logoWidth {
-  width: 208px;
+.rightSidePage {
+  height: 625px;
+  width: 705px;
 }
-
 .buttonMainStyle {
   border-radius: 30px;
   border: none;
@@ -53,13 +62,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  padding-top: 32px;
+  padding-top: 10px;
   min-width: 375px;
   min-height: 172px;
 }
 .borderGrey {
+  position: absolute;
   border-top: var(--lineGrey);
   width: 100%;
+  top: 428px;
 }
 .headerCreateAccount {
   font-style: normal;
@@ -79,9 +90,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 36px;
-  min-width: 100%;
-  height: 278px;
+  min-width: 705px;
+  height: 625px;
   background: linear-gradient(180deg, #fbea79 0%, #f8d247 100%);
   position: relative;
 }
@@ -99,7 +109,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  margin-top: 32px;
+  margin-top: 20px;
 }
 .linkContactUs {
   color: #ff3f55;
@@ -118,23 +128,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
   height: 100%;
 }
-
-/* .inputPassword span.aria-label {
-  position: absolute;
-  background-image: url(../../../images/logo.svg);
-  background-size: contain;
-  width: 15px;
-  height: 10px;
-  cursor: pointer;
-} */
-
-/* .inputPassword span {
-  position: absolute;
-  background-image: url(../../../images/eyePassword.svg);
-  background-size: contain;
-  width: 15px;
-  height: 10px;
-  cursor: pointer;
-} */
+.footerBlock {
+  display: flex;
+  justify-content: center;
+}

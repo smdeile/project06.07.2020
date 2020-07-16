@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapperDividedBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--mainBackgroundColor);
+}
+.dividedBlock {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+}
+.leftSide {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+.rightSide {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+}

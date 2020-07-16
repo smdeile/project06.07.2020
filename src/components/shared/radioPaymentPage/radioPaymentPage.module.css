@@ -1,0 +1,41 @@
+.radioGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 317px;
+  margin-top: 25px;
+}
+.radioLabel {
+  width: 280px;
+  height: 115px;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  padding-top: 16px;
+  padding-left: 13px;
+  display: flex;
+  background-color: #ffffff;
+}
+.radioSignature {
+  margin-left: 16px;
+}
+.headerRadioSignature {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+}
+.phraseRadioSignature {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+}
+.signatureRadioBlock {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #1b1d1c;
+  margin: 0;
+}

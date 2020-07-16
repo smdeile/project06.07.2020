@@ -1,0 +1,17 @@
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoLink {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signatureWidth {
+  width: 55%;
+}
+.logoNameWidth {
+  width: 36%;
+}

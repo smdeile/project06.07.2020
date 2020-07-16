@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapperPlans {
+  padding-top: 80px;
+  background-color: var(--mainBackgroundColor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.plansBlock {
+  width: 1440px;
+  display: flex;
+  justify-content: space-around;
+}
+.footerBlock {
+  display: flex;
+  align-items: center;
+}

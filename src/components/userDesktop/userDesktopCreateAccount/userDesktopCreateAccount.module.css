@@ -1,0 +1,18 @@
+.wrapper {
+  min-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--mainBackgroundColor);
+  margin: 0 auto;
+}
+.stylesForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 730px;
+}
+.footerBlock {
+  display: flex;
+  justify-content: center;
+}

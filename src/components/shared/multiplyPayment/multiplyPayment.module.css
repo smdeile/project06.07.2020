@@ -1,0 +1,55 @@
+.paymentBlock {
+  width: 334px;
+  height: 176px;
+  border: 1px solid #dfdfdf;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+
+  box-shadow: 0px 1.73px 4.47px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.typeOfPayment {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+}
+.priceItem {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin-bottom: 10px;
+  margin-left: 21px;
+  margin-right: 21px;
+  padding: 2px;
+}
+.headerPayment {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 200%;
+  margin: 0;
+}
+.signaturePayment {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  margin: 0;
+}
+.price {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 200%;
+  margin: 0;
+}
+.totalBill {
+  border-top: 2px solid #dfdfdf;
+  width: 100%;
+}

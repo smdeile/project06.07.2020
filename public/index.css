@@ -26,3 +26,58 @@ code {
   color: #1b1d1c;
   padding-left: 34px;
 }
+.ant-input-suffix {
+  color: red;
+  position: absolute;
+  right: 23px;
+  top: 0px;
+}
+.icons-list {
+  width: 100%;
+}
+.ant-page-header-heading-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 140%;
+  color: #1b1d1c;
+}
+.ant-page-header-heading-sub-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 200%;
+  color: #483c3c;
+}
+.ant-page-header-heading-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ant-page-header-back {
+  position: absolute;
+  left: 20px;
+  top: 13px;
+}
+.ant-page-header-heading-title {
+  margin-top: 57px;
+  margin-bottom: 15px;
+}
+.ant-page-header-heading-sub-title {
+  max-width: 80%;
+  text-align: center;
+}
+:root {
+  --lineGrey: 1px solid #dfdfdf;
+  --mainBackgroundColor: #fafafa;
+}
+/* 
+.ant-radio-wrapper-checked:before {
+  background-image: url(../src/images/chekedRectangle.svg) !important;
+  background-size: cover !important;
+  border: none !important;
+} */
+.ant-form-item-explain {
+  height: 19px;
+}

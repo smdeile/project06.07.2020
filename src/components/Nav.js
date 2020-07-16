@@ -17,6 +17,14 @@ export class Nav extends Component {
             // className={styles.link}
             // activeClassName={styles.activeLink}
           ></NavLink>
+          <NavLink
+            to="/userChoosePlan"
+            // className={styles.link}
+            // activeClassName={styles.activeLink}
+          ></NavLink>
+          <NavLink to="/UserPaymentPage"></NavLink>
+          <NavLink to="/userPaymentPageCard"></NavLink>
+          <NavLink to="/userThankYouPage"></NavLink>
         </div>
       </div>
     );

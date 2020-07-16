@@ -1,0 +1,107 @@
+.formBlock {
+  width: 334px;
+}
+
+.tittle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #1b1d1c;
+}
+.cardInfoFormBlock {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: start;
+  border-radius: 8px;
+  background-color: #fff;
+  position: relative;
+  padding: 17px;
+}
+.cardInfoFormBlock input {
+  height: 17px;
+  border-radius: 0;
+}
+.cardInfoForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 210px;
+}
+.cardImage {
+  width: 21px;
+  height: 16px;
+  background-image: url(../../../images/cardImage.svg);
+  background-size: cover;
+  position: absolute;
+  top: 17px;
+  left: 11px;
+}
+.cardNumberForm input {
+  width: 128px;
+  margin-left: 24px;
+}
+.cardNumberForm input::placeholder {
+  border-right: 2px solid #dfdfdf;
+}
+.cardInfoFormBlock input::placeholder {
+  padding-left: 0px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+.cardDateForm input::placeholder {
+  border-right: 2px solid #dfdfdf;
+}
+/* .cardInfoForm input::placeholder {
+  border-right: 2px solid #dfdfdf;
+
+  height: 16px;
+  padding: 0;
+} */
+
+.cardInfoForm input::placeholder:last-of-child {
+  border: none;
+}
+/* .cardNumber {
+  width: 135px;
+  padding: 0;
+} */
+.cardDate {
+  width: 90px;
+  padding: 0;
+}
+.cardCcv {
+  width: 52px;
+  padding: 0;
+}
+
+.signatureHeader {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+}
+.signaturePhrase {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 200%;
+}
+.submitCard {
+  width: 255px;
+  height: 40px;
+  background: #ffffff;
+  border: 1.5px solid #ff3f55;
+  color: #ff3f55;
+  border-radius: 100px;
+  text-transform: uppercase;
+  ont-style: normal;
+}
+.buttonForm {
+  align-self: flex-start;
+}

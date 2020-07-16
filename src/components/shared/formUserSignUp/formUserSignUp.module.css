@@ -1,0 +1,95 @@
+.formWrapper {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formEmail {
+  margin-top: 51px;
+}
+.input {
+  width: 334px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 13px;
+  margin-bottom: 25px;
+  color: #1b1d1c;
+}
+.formPassword {
+  position: relative;
+}
+.inputPassword input {
+  width: 334px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 35px;
+  padding-left: 13px;
+  color: #1b1d1c;
+}
+
+.inputPassword span {
+  font-size: 16px;
+  top: 15px;
+}
+.input::placeholder {
+  padding-left: 0px;
+  color: #1b1d1c;
+}
+.inputPassword input::placeholder {
+  padding-left: 0;
+  color: #1b1d1c;
+}
+
+.formButton {
+  display: flex;
+  justify-content: center;
+}
+.buttonLogin {
+  width: 170px;
+  height: 56px;
+}
+.buttonMainStyle {
+  border-radius: 30px;
+  border: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+.buttonWithGradient {
+  background: linear-gradient(90deg, #ff3658 -34.18%, #f68d36 86.61%);
+}
+.buttonWhiteColor {
+  color: #ffffff;
+}
+.forgotPassword {
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 39px;
+}
+.linkForgotPassword {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4f4f4f;
+  text-align: center;
+  text-decoration-line: underline;
+}

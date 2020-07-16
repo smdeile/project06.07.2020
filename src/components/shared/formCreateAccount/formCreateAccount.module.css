@@ -1,0 +1,157 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formBlockMobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 375px;
+}
+.FormBlockDesktop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 730px;
+}
+.information {
+  align-self: start;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+}
+.radioForm {
+  align-self: start;
+  padding-left: 25px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+.radioGroup {
+  margin-bottom: 32px;
+  margin-top: 12px;
+  width: 334px;
+  display: inline-block;
+  margin-right: 10px;
+}
+/* .radioGroup input {
+    display: none;
+  } */
+/* .radioGroup label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 0;
+    line-height: 18px;
+    user-select: none;
+  }
+  .radioGroup label:before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    border: 1.5px solid #4f4f4f;
+    border-radius: 50%;
+  } */
+
+.radioGroup label:last-child {
+  margin-left: 40px;
+}
+.radioGroup input {
+  margin-right: 12px;
+}
+.passwordInput input {
+  width: 334px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 13px;
+  margin-bottom: 35px;
+  color: #1b1d1c;
+}
+.passwordInput input::placeholder {
+  padding-left: 0;
+}
+.passwordInput {
+  position: relative;
+}
+.input {
+  width: 334px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 13px;
+  margin-bottom: 35px;
+  color: #1b1d1c;
+  position: relative;
+}
+.input::placeholder {
+  color: #1b1d1c;
+  padding-left: 0;
+}
+
+.checkbox {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  display: flex;
+  color: #4f4f4f;
+}
+.checkbox span {
+  margin-bottom: 20px;
+}
+.checkbox input {
+  width: 26px;
+  height: 26px;
+  margin-right: 12px;
+}
+.checkboxForm {
+  width: 330px;
+}
+.buttonMainStyle {
+  border-radius: 30px;
+  border: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  width: 149px;
+  height: 56px;
+}
+.buttonWithGradient {
+  background: linear-gradient(90deg, #ff3658 -34.18%, #f68d36 86.61%);
+}
+.buttonWhiteColor {
+  color: #ffffff;
+}
+.signature {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 160%;
+  width: 75%;
+}

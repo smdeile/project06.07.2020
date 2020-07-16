@@ -1,0 +1,83 @@
+.footerBlockMobile {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.footerBlockDesktop {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1250px;
+  height: 95px;
+  padding-left: 75px;
+  background-color: #fff;
+  padding-right: 75px;
+}
+
+.footerTel {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 42px;
+  color: #1b1d1c;
+  text-decoration: none;
+  min-width: 159px;
+  max-width: 175px;
+}
+.footerMail {
+  background: #ff3f55;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-top: 6px;
+  margin-left: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerContacts {
+  display: flex;
+  max-width: 434px;
+  justify-content: space-between;
+}
+.logoFooterBorder {
+  border-top: var(--lineGrey);
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logoWidth {
+  width: 112px;
+}
+
+.buttonMainStyle {
+  border-radius: 30px;
+  border: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+.linkContactUs {
+  color: #ff3f55;
+  border: 1.5px solid #ff3f55;
+  border-radius: 100px;
+  background-color: #ffffff;
+  width: 194px;
+  height: 40px;
+  margin-left: 65px;
+}

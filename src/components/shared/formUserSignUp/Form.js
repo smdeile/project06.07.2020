@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Form, Input, Button } from "antd";
-import css from "./userSignUpPage.module.css";
+import css from "./formUserSignUp.module.css";
+import { EyeFilled } from "@ant-design/icons";
 
 class FormComponent extends Component {
   onFinish = (values) => {
@@ -45,7 +46,11 @@ class FormComponent extends Component {
             },
           ]}
         >
-          <Input.Password placeholder="Mot de passe" />
+          <Input.Password
+            className={css.inputPassword}
+            placeholder="Mot de passe"
+            suffix={<EyeFilled style={{ fontSize: "23px", color: "red" }} />}
+          />
         </Form.Item>
 
         <Form.Item className={css.formButton}>
@@ -60,8 +65,7 @@ class FormComponent extends Component {
 
         <Form.Item className={css.forgotPassword}>
           <a
-            className={css.linkForgotPassword}
-            className={css.buttonLogin}
+            className={`${css.buttonLogin} ${css.linkForgotPassword}`}
             href="some url"
           >
             Mot de passe oublié ?

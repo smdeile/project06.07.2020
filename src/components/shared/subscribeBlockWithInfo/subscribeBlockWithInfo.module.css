@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 33px;
+}
+.subscribeButton {
+  border-radius: 30px;
+  width: 170px;
+  height: 56px;
+  border: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  background: linear-gradient(90deg, #ff3658 -34.18%, #f68d36 86.61%);
+  color: #ffffff;
+}
+.someInfoText {
+  width: 90%;
+  color: #333333;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 160%;
+}

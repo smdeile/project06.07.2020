@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrapperDivided {
+  display: flex;
+  width: 100%;
+  background-color: var(--mainBackgroundColor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dividedBlock {
+  display: flex;
+  justify-content: center;
+}
+.leftSide {
+  margin-right: 15px;
+}
+.rightSide {
+  margin-left: 15px;
+}
